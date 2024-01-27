@@ -2,10 +2,14 @@
 
 import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:flutter/material.dart';
+import 'package:media_player/View/FirstPage.dart';
 import 'package:provider/provider.dart';
 
 import 'Controller/media_provider.dart';
 import 'View/home_page.dart';
+
+var assetsAudioPlayer = AssetsAudioPlayer.newPlayer();
+bool isBottomSheetOpen = false;
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +35,7 @@ class MyApp extends StatelessWidget {
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             useMaterial3: true,
           ),
-          home: HomePage(),
+          home: FirstPage(),
         );
       },
     );
