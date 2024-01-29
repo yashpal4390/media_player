@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 
 class MediaPlayerProvider extends ChangeNotifier {
   bool isPlaying = false; // Add this variable
-  bool clicked = false;
   List<Audio> playedSongs = [];
   List<Audio> favorite = [];
   int index=0;

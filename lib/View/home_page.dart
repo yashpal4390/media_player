@@ -1,9 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:media_player/Controller/media_provider.dart';
 import 'package:media_player/View/FirstPage.dart';
-import 'package:media_player/View/favorite_page.dart';
 import 'package:media_player/main.dart';
 import 'package:provider/provider.dart';
 
@@ -41,7 +39,7 @@ class _HomePageState extends State<HomePage> {
           children: const [
             FirstPage(),
             MyHomePage(title: "title2"),
-            FavoritePage(),
+            // FavoritePage(),
           ],
         ),
       ),
