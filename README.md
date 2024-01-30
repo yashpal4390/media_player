@@ -1,5 +1,5 @@
 # MediaPlayer 
-
+Media player application using the Flutter framework that enhances the media playback experience for users. The Media Booster app will have an audioplayer, video player, and carousel slider functionalities along with a tab bar view.
 ## Project Overview
 
 
